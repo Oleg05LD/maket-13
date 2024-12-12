@@ -1,0 +1,507 @@
+@import url(fonts.css);
+@import url(hamburgers.css);
+* {
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  background: #f8edf0;
+  min-height: 100dvh;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fill {
+  color: #d23166;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 172px;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+.link_nav {
+  text-decoration: none;
+  color: #150101;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.btn {
+  display: inline-flex;
+  color: white;
+  background: #d23166;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 14px 50px;
+  font-family: "Hind Madurai";
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+.hero__container {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+}
+.hero-content {
+  margin: 180px 0px 0px 0px;
+}
+.hero-content--p {
+  font-family: "Hind Madurai";
+  font-weight: 600;
+  font-size: 16px;
+}
+.hero-content h1 span {
+  color: #d23166;
+}
+.hero-content--h1 {
+  font-size: 57px;
+  font-family: "Fredoka";
+  font-weight: 700;
+  text-wrap: balance;
+  margin: 0px 0px 35px 0px;
+}
+.hero-content--text {
+  font-size: 18px;
+  font-family: "Hind Madurai";
+  font-weight: 400;
+  text-wrap: balance;
+  max-width: 523px;
+  margin: 0px 0px 50px 0px;
+}
+.hero-image {
+  margin: 37px 0px 0px 0px;
+}
+.hero-image img {
+  max-width: 100%;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-top: 30px;
+  margin-bottom: 28px;
+}
+.card {
+  text-align: center;
+  border-radius: 5px;
+  padding: 35px 26px 28px;
+  background: #fdfcfc;
+}
+.card img {
+  width: 50px;
+  margin-bottom: 15px;
+}
+.card_h3 {
+  font-size: 20px;
+  font-family: "Hind Madurai";
+  font-weight: 600;
+}
+.card_text {
+  font-size: 14px;
+  font-family: "Hind Madurai";
+  font-weight: 400;
+}
+
+.product-wrap {
+  background: #f8edf0;
+  padding: 40px 0;
+}
+.section_product {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  justify-content: space-between;
+}
+.product-section {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.product_h2 {
+  font-family: "Hind Madurai";
+  font-weight: 700;
+  font-size: 44px;
+  color: #150101;
+  max-width: 349px;
+}
+.product_text {
+  font-size: 1rem;
+  font-family: "Roboto";
+  font-weight: 200;
+  line-height: 24px;
+  color: #333333;
+  max-width: 442px;
+  margin: 16px 0px 35px 0px;
+}
+.product__img {
+  max-width: 100%;
+}
+
+.assortment__h2 {
+  font-family: "Hind Madurai";
+  font-weight: 700;
+  font-size: 44px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.links_assortment {
+  margin-top: 64px;
+}
+.linkss {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 39px;
+}
+.links {
+  color: #5d5c5c;
+  position: relative;
+  cursor: pointer;
+  line-height: 1;
+  text-decoration: none;
+}
+.links:hover {
+  border-bottom: 3px solid #d64374;
+  transition: 0.1s;
+}
+
+.ticket {
+  display: flex;
+  align-items: center;
+  gap: 85px;
+  justify-content: center;
+}
+.ticket_text {
+  width: 454px;
+}
+
+/* .old_pice {
+  text-decoration: line-through; */
+
+.mango_ice {
+  text-align: end;
+}
+.ticket_h3 {
+  font-family: "Hind Madurai";
+  font-weight: 700;
+  font-size: 26px;
+}
+.ticket_text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  margin: 11px 0px;
+  color: #5d5c5c;
+}
+.ticket_price {
+  font-family: "Hind Madurai";
+  font-weight: 600;
+  font-size: 26px;
+  margin-top: 28px;
+}
+
+.old_pice {
+  font-family: "Hind Madurai";
+  font-weight: 600;
+  font-size: 20px;
+  color: #5d5c5c;
+  text-decoration: line-through;
+}
+
+.reviews {
+  display: flex;
+  align-items: center;
+}
+.clients {
+  display: flex;
+  margin-top: 50px;
+}
+.clients img {
+  max-width: 59px;
+}
+.user {
+  margin: 11px;
+}
+.user_name {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 24px;
+}
+.user_from {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 12px;
+  color: #4d4d4d;
+}
+.reviews_text {
+  margin: 50px 20px;
+}
+
+.review {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  color: #b3b3b3;
+  max-width: 322px;
+  position: relative;
+  line-height: 1.5;
+}
+.review::before {
+  content: url(../svg/quote.png);
+  position: absolute;
+  top: -5px;
+  left: -22px;
+}
+.review::after {
+  content: url(../svg/quotes.png);
+  transform: translateY(5px) translateX(5px);
+  display: inline-flex;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+.size-6 {
+  width: 14px;
+  color: #d64374;
+}
+.avatar_man {
+  max-width: 33px;
+}
+.avatar_woman {
+  max-width: 57px;
+  /* margin-left: 26px; */
+}
+.user_woman {
+  max-width: 33px;
+  /* margin-left: 26px; */
+}
+.ice-cream-scoops {
+  margin-left: 231px;
+}
+.btn_nav {
+  background: none;
+  border: none;
+}
+
+.wrap {
+  background: #f8edf0;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.adver_h1 {
+  font-family: "Roboto";
+  font-size: 44px;
+  margin-left: 134px;
+  margin-top: 70px;
+}
+
+.img_mask {
+  margin: 50px 0 -50px;
+}
+.adver_text {
+  font-family: "Roboto";
+  font-size: 18px;
+  max-width: 607px;
+  color: #554949;
+  margin-top: 20px;
+  margin-left: 134px;
+}
+
+.adver_list {
+  list-style: none;
+  margin: 31px;
+  margin-left: 80px;
+}
+.adver_li {
+  margin: 19px;
+  font-size: 22px;
+  display: flex;
+}
+.icon-bg {
+  background: #ffff;
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.img_icons {
+  border-radius: 3px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 41px;
+  margin-left: 134px;
+}
+
+.contact_section {
+  text-align: center;
+  padding: 50px 20px;
+}
+.contact_h1 {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 44px;
+  margin-bottom: 10px;
+}
+.contact_p {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 44px;
+  margin-bottom: 20px;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  padding: 10px;
+  width: 500px;
+  height: 70px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.input_btn {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #d64374;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 134px;
+  height: 70px;
+}
+.footer {
+  background-color: #222;
+  color: white;
+  padding: 40px 20px;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-logo {
+  max-width: 300px;
+}
+.footer-logo img {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.footer_text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 12px;
+  width: 207px;
+}
+.text_flow {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 25px;
+}
+.social_icons {
+  margin-top: 8px;
+  margin-right: 10px;
+}
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.newsletter {
+  max-width: 300px;
+}
+.newsletter h4 {
+  margin-bottom: 10px;
+}
+
+.subscribe-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.subscribe-container input {
+  padding: 10px;
+  width: 70%;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn_subscride {
+  font-family: "Roboto";
+  padding: 10px;
+  background-color: #d64374;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.payment-icons img {
+  max-width: 40px;
+  margin-right: 10px;
+}
